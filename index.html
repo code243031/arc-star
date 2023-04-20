@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <h1>arc-star network</h1>
+    electron 연습용입니다. <span id="node-version"></span>,
+    본 페이지는 실제 사용하지 않을 수도 있습니다 <span id="chrome-version"></span>,
+    자세한건 연습하면서 기르도록 하세요 <span id="electron-version"></span>.
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
